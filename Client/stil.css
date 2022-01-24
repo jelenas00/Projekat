@@ -1,0 +1,359 @@
+@media screen {
+    body{
+        background-color: burlywood;
+    }
+    
+}
+*{
+    box-sizing: border-box;
+}
+.zaglavlje{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    border-style: outset;
+    border-radius: 4px;
+    border-color: rgb(117, 13, 36);
+    background-color: rgb(170, 29, 60);
+}
+.bodyMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    flex-direction: column;
+}
+
+.dodajSalon{
+    margin: 2px;
+    border-radius: 12px;
+    height: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    align-self:flex-end;
+    font-family: cursive;
+}
+.dodajSalon:hover{
+    background-color:rgb(170, 29, 60) ;
+}
+.popuniSalon{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+.divPopuniSalon{
+    margin: 10px;
+    display: flex;
+    flex-shrink: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imeNovogSalona{
+    flex: 1;
+    font-family: cursive;
+}
+.imeVrednost{
+    flex:1;
+}
+.dugmePartnerMain{
+    border: 1px solid rgb(170, 29, 60);
+    border-radius: 6px;
+    margin: 1px;
+    font-family: cursive;
+    font-size:xx-small;
+    flex:1 2 auto;
+}
+.bodyZaSalone{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.salonMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: rgb(170, 29, 60);
+}
+.salonPodaciMain{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+}
+.salonDugmiciMain{
+    flex:1;
+}
+.imeSalonaMain{
+    flex: 1;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    margin: 1px;
+    cursor: pointer;
+}
+ 
+/*AutoSalon*/
+
+.salonDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:5px;
+}
+
+.podaciSalon{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px 10px;
+    align-content: flex-start;
+}
+
+.prikazForme{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0%;
+    justify-content: flex-start;
+}
+.imeSalona{
+    flex: 1;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    margin: 1px;
+}
+.adresa{
+    flex: 1;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    margin: 1px;
+}
+.dugmePartner{
+    flex:1;
+    margin: 2px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    font-size:xx-small;
+    width: fit-content;
+    align-self:flex-start;
+    font-family: cursive;
+}
+.dugmePartner2{
+    flex:1;
+    margin: 2px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    font-size:xx-small;
+    width: fit-content;
+    justify-self: flex-end;
+    align-self:center;
+    font-family: cursive;
+}
+.dugmePartner:hover{
+    background-color:rgb(170, 29, 60) ;
+}
+.dugmePartner2:hover{
+    background-color:rgb(170, 29, 60) ;
+}
+.prikazPartnera{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+.divPartnerSalon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.dodavanjePartnera{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.dodajPartneraDivovi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.dodajPartneraLabele{
+    flex:1;
+    font-family: cursive;
+}
+.dodajPartneraVrednosti{
+    border-radius: 6px;
+    border: 1px solid rgb(170, 29, 60);
+}
+.bodyDodavanjeModela{
+    display: flex;
+    flex-direction: column;
+}
+.dodavanjeModelaNazivDiv{
+    display: flex;
+    flex-direction: row;
+}
+.dodavanjeModelaPodaci{
+    flex:1;
+    font-family: cursive;
+    font-size: small;
+}
+.dodavanjeModelaInput{
+    flex:1;
+    font-family: cursive;
+    border-radius: 6px;
+    border: 1px solid rgb(170, 29, 60);
+
+}
+/*Partner*/
+.kontejnerPartner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.partnerDiv{
+    display: flex;
+    flex:2;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 1px;
+    border-bottom:1px solid rgb(170, 29, 60);
+}
+.partnerDivDugme{
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.podaciPartner{
+    flex: 3;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    margin-right: 2px;
+}
+.dugmenceBrisiPartnera{
+    margin: 5px;
+    border-radius: 12px;
+    height: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    align-self:flex-end;
+    font-family: cursive;
+}
+
+.divPrikazModela{
+    display: flex;
+    flex-direction: column;
+}
+.prikazModelaZaglavlje{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.selektPartnera{
+    margin: 2px;
+    border-radius: 12px;
+    height: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    align-self:flex-end;
+    font-family: cursive;
+}
+.selektPartnera2{
+    margin: 2px;
+    border-radius: 12px;
+    height: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    align-self:flex-end;
+    font-family: cursive;
+}
+.selektPartnera:hover{
+    background-color:rgb(170, 29, 60)
+}
+.selektPartnera2:hover{
+    background-color:rgb(170, 29, 60)
+}
+.prikazModela{
+    display: flex;
+    flex-direction: column;
+}
+.divModeliPartnera{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*Model*/
+.modelKontejner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.modelPodaci{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dugmiciModeldiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.modelIme{
+    display: flex;
+    font-family: cursive;
+    align-self: center;
+}
+.modelDugmici{
+    margin: 2px;
+    border-radius: 12px;
+    height: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    align-self:center;
+    font-family: cursive;
+}
+.modelDugmiciPromeni{
+    margin: 2px;
+    border-radius: 12px;
+    height: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(231, 216, 157);
+    border:1px solid firebrick;
+    align-self:center;
+    font-family: cursive;
+}
+.modelDugmici:hover{
+    background-color:rgb(170, 29, 60)
+}
+.modelDugmiciPromeni:hover{
+    background-color:rgb(170, 29, 60)
+}
+.divZaModelPartner{
+    display: flex;
+    flex-direction: row;
+}
+.novaCena{
+    display: flex;
+}
